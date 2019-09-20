@@ -1,0 +1,20 @@
+{
+  "name": "HealthyWorker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "MiryangJung<jung@miryang.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.26",
+    "mongoose": "^5.7.1",
+    "node-cron": "^2.0.3",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
