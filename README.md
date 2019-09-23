@@ -2,8 +2,8 @@
 > 직장인건강지킴이 텔레그램 봇입니다. <br>
 > 가만히 앉아서 일하다보니 물도 잘 안마시고, 자세도 구부정해져서 주기적으로 알림을 해주기 위해 만들었습니다.
 
-## 사용 방법
-ID : @HealthyWorkerBot
+## 사용
+ID : @HealthyWorkerBot<br>
 Link : [t.me/HealthyWorkerBot](https://t.me/HealthyWorkerBot)
 
 ## 작동 방식
