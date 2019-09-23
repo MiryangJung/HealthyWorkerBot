@@ -54,7 +54,7 @@ npm install
    
 ## 기여 방법
 
-1. (<https://github.com/XXIT-Official/2019-xxit-tech-talk>)을 포크합니다.
+1. (<https://github.com/MiryangJung/HealthyWorkerBot>)을 포크합니다.
 2. (`git checkout -b feature/something`) 명령어로 새 브랜치를 만드세요.
 3. (`git commit -am 'Add something'`) 명령어로 커밋하세요.
 4. (`git push origin feature/something`) 명령어로 브랜치에 푸시하세요. 
