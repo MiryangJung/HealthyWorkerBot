@@ -56,8 +56,8 @@ Msg.Stretching03=()=> {
 
 
 Msg.Eye=()=> {
-    SendMsg("https://i.ibb.co/1ssMhmd/eye01.gif","👀 눈 운동을 해요! \n출처 : SK이노베이션");
-}
+    SendGif("https://i.ibb.co/1ssMhmd/eye01.gif","👀 눈 운동을 해요! \n출처 : SK이노베이션");
+};
 
 
 function SendMsg(url,cap) {
@@ -67,6 +67,18 @@ function SendMsg(url,cap) {
             else {
                 for(i=0; i<lists.length; i++){
                     bot.sendPhoto(lists[i].chatId, url, {caption: cap, parse_mode: "Markdown"},);
+                }
+            }
+        });
+}
+
+function SendGif(url,cap) {
+    User.find({activate:true})
+        .exec(function(err, lists){
+            if(err) console.log("User list Error : "+err);
+            else {
+                for(i=0; i<lists.length; i++){
+                    bot.sendDocument(lists[i].chatId, url, {caption: cap,parse_mode: "Markdown"},);
                 }
             }
         });
