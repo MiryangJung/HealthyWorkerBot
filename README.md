@@ -12,7 +12,7 @@ Link : [t.me/HealthyWorkerBot](https://t.me/HealthyWorkerBot)
 - 스트레칭 : 11시, 13시, 15시
 - 눈 운동 : 17시
 
-![example](example.png)
+![example](example.gif)
 
 ## 개발 환경 설정
 ```sh
@@ -44,6 +44,13 @@ npm install
    * Gif가 재생되지 않음
 * 해결
    * 해결 중
+   
+### Cron
+* 문제
+   * 7시전까지 메시지 발송됨
+* 해결
+   * cron 시간을 9-18을 하면 18시 XX분까지 작동함.
+   * 9-17으로 시간 변경
    
 ## 기여 방법
 
