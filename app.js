@@ -17,21 +17,21 @@ mongoose.set('useNewUrlParser', true);
 
 // Send message Scheduler
 // Water
-node_cron.schedule('10 9-18 * * 1-5', () => {
+node_cron.schedule('10 9-17 * * 1-5', () => {
     Bot.Msg.Water01()
 },{
     scheduled: true,
     timezone: "Asia/Seoul"
 });
 
-node_cron.schedule('30 9-18 * * 1-5', () => {
+node_cron.schedule('30 9-17 * * 1-5', () => {
     Bot.Msg.Water02()
 },{
     scheduled: true,
     timezone: "Asia/Seoul"
 });
 
-node_cron.schedule('50 9-18 * * 1-5', () => {
+node_cron.schedule('50 9-17 * * 1-5', () => {
     Bot.Msg.Water03()
 },{
     scheduled: true,
