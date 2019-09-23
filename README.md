@@ -53,6 +53,9 @@ npm install
    * cron 시간을 9-18을 하면 18시 XX분까지 작동함
    * 9-17으로 시간 변경
    
+## 개발기
+<https://miryang.dev/2019/09/23/healthyworkerbot/>
+   
 ## 기여 방법
 
 1. (<https://github.com/MiryangJung/HealthyWorkerBot>)을 포크합니다.
