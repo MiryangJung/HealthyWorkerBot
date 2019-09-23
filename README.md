@@ -7,7 +7,7 @@ ID : @HealthyWorkerBot
 Link : [t.me/HealthyWorkerBot](https://t.me/HealthyWorkerBot)
 
 ## 작동 방식
-9시부터 18시까지만 작동합니다.
+평일 9시부터 18시까지만 작동합니다.
 - 물 : 20분마다
 - 스트레칭 : 11시, 13시, 15시
 - 눈 운동 : 17시
